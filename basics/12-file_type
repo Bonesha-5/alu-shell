@@ -1,2 +1,2 @@
 #!/bin/bash
-file /tmp/imafile > check_file_type.sh
+file /tmp/iamafile
