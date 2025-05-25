@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -print0 | xargs -0 chmod u+rwx,g+rx,o+rx {} +
+find . -mindepth1 -type d .. -exec chmod +x {} +
