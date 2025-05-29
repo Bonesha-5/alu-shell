@@ -1,0 +1,2 @@
+#!/bin/bash
+cut -cl "${1:-dev/stdin}" | tr -d '\n'echo
