@@ -1,6 +1,3 @@
 #!/bin/bash
-while read -r f
-do
-  echo "${f##*/}" | cut -d. -f1
-done < <(find . -type f -name "*.gif") | sort -f
+find -type f -name *.gif" | rev | cut -d "/" -f 2- | rev | LC_ALL=C sort -f
 
