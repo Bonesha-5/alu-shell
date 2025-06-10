@@ -1,2 +1,2 @@
 #!/bin/bash
-declare -i $NUM | echo "$NUM.00"
+echo "$NUM"
